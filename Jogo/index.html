@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="./scripts/script.js"></script>
+    <title>Jogo</title>
+</head>
+<body>
+    <button onclick="Iniciar()">Iniciar jogo</button>
+    <input type="text" id="txtResultado">
+    <br />
+    <br />
+<div id="Jogador1">
+    <img src="./imagens/pedra1.png" onclick="Escolha1()">
+    <img src="./imagens/papel1.png" onclick="Escolha2()">
+    <img src="./imagens/tesoura1.png" onclick="Escolha3()">
+</div>    
+    <br />
+<div id="Jogador2">
+    <img src="./imagens/pedra2.png" onclick="Escolha4()">
+    <img src="./imagens/papel2.png" onclick="Escolha5()">
+    <img src="./imagens/tesoura2.png" onclick="Escolha6()">
+</div>    
+    <br />
+    <br />
+    <button onclick="Resultado()" id="btnResultado">Mostrar resultado</button>
+
+</body>
+</html>
